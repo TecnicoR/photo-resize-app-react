@@ -37,7 +37,8 @@ npm install
 ```
 4. Start the development server:
 ```bash
-npm start```
+npm start
+```
 
 5. Open your web browser and visit http://localhost:3000 to use PhotoResizePro locally.
 
