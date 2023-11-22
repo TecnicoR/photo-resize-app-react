@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# PhotoResizePro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PhotoResizePro is a web application that allows users to upload images and resize them according to their preferences. It offers a simple and intuitive interface for resizing multiple images at once.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+To run this project locally, you'll need the following:
 
-### `npm start`
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (Node Package Manager) installed on your computer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Packages Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+PhotoResizePro is built using the following packages:
 
-### `npm test`
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom user interfaces.
+- [Pica](https://github.com/nodeca/pica): A high-performance image resizing library for the browser.
+- [SweetAlert2](https://sweetalert2.github.io/): A beautiful, responsive, customizable, and accessible (WAI-ARIA) replacement for JavaScript's popup boxes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with PhotoResizePro, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/TecnicoR/photo-resize-app-react.git
+```
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd photo-resize-pro
+```
+3. Install the project dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm start```
 
-### `npm run eject`
+5. Open your web browser and visit http://localhost:3000 to use PhotoResizePro locally.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Upload one or more images by clicking the "Upload Images" button.
+2. Configure your resizing options, such as width, height, and compression percentage.
+3. Click the "Resize Images" button to resize the uploaded images.
+4. View the resized images in the table, which displays the original name, old size, new size, and an option to preview each image.
+5. Click the "Preview" button to view the resized image in a popup modal.
+6. Download individual images or all resized images in a zip file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you'd like to contribute to this project, please follow these guidelines:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fork the repository on GitHub.
+- Create a new branch with a descriptive name (e.g., feature/new-feature).
+- Make your changes and commit them with clear commit messages.
+- Push your changes to your forked repository.
+- Create a pull request to the original repository.
